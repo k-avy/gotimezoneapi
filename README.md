@@ -1,6 +1,6 @@
 # TimeZoneApi
 
-It is a Time zone converter APIin golang, it converts the time from one time zone to another timezone.
+It is a Time zone converter API in golang, it converts the time from one time zone to another timezone.
 
 ## Prerequisite
 
