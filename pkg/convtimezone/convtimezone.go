@@ -15,7 +15,6 @@ func Convert(w http.ResponseWriter, r *http.Request) {
 
 	utc := time.Now().UTC()
 	t := utc.String()
-	fmt.Fprintf(w, "Time (UTC) : %s\n", t)
 	ele := strings.Fields(t)
 	e := strings.Split(ele[1], ":")
 	sec := strings.Split(e[2], ".")[0]
